@@ -13,8 +13,8 @@
     color: var(--main-color);
 }
 
-body {
-    display: flex;
+.main-container {
+    
     justify-content: center;
 }
 
@@ -116,6 +116,39 @@ body {
     margin-bottom: 5px;
 }
 
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    
+}
+
+nav{
+    display : flex;
+    justify-content: space-between;
+    padding: 0px 25px 0px 25px;
+}
+
+a{
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+
+}
+a:hover {
+    border-top: #0065FC solid;
+    color: #0065FC;
+    }
+    
+
+img{
+    width: 30%;
+    padding: 30px 50px 30px 50px;
+}
 
 
 
