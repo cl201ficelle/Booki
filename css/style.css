@@ -20,7 +20,7 @@
 
 .main-container {
     width: 100%;
-    min-width: 1440px;
+  
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -176,15 +176,22 @@ h2{
 /* **********rechercher****** */
 
 .fa-location-dot{
+    
     color: black;
     background-color: #F2F2F2;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     width: 50px;
-    height: 50px;
+    height: 36px;
     border:1px;
     text-align: center;
+    padding-top: 13px;
+    
+
+    
 }
+
+
 
 
 .rechercher{
@@ -202,7 +209,7 @@ button{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     font-size: 18px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 input{
@@ -210,7 +217,7 @@ input{
     height: 49px;
     border: 1px solid #F2F2F2;
     font-size: 18px;
-    font-weight: 700px;
+    font-weight: 700;
     text-align: center;
     color: black;
 }
