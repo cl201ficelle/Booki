@@ -20,7 +20,7 @@
 
 .main-container {
     width: 100%;
-    max-width: 1440px;
+    min-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -162,7 +162,16 @@ nav{
     
 }
 
+/* main : titre et promesse */
 
+h1{
+    font-size: 22px;
+    font-weight: 700;
+}
+h2{
+    font-size: 16px;
+    font-weight: 400;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -231,7 +240,7 @@ nav{
         padding: 0px;
        
     }
-    /* pour que la bordure bottom du hover prenne toute la largeur (il doit exister un autre moyen pour cela +pour bien centrer les deux liens je n'ai pas encore trouvé) */
+    /* pour que la bordure bottom du hover prenne toute la largeur (il doit exister un autre moyen pour cela +pour bien centrer les deux liens je n'ai pas trouvé) */
     .lienheader{
         padding:0px 60px 20px 60px;
     }
