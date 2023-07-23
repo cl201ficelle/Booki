@@ -120,8 +120,12 @@ body{
     margin: 0;
 
 
+
+
     /* header */
 }
+
+/* espacer le logo et les deux liens */
 header{
     display: flex;
     justify-content: space-between;
@@ -130,27 +134,32 @@ header{
     
 }
 
+/* espacer les deux liens */
 nav{
     display : flex;
     justify-content: space-between;
     padding: 0px 25px 0px 25px;
 }
 
+/* enlever la couleur et le soulignage des liens */
 .lienheader{
     padding: 30px;
     text-decoration: none;
     color: black;
 
 }
+
+/* créer une bordure top qui apparait quand on survole le lien et met texte en bleu */
 .lienheader:hover {
     border-top: #0065FC solid;
     color: #0065FC;
     }
     
-
+/* ajustement du logo */
 .logoheader{
-    width: 30%;
-    padding: 30px 50px 30px 50px;
+    width: 61px;
+    padding: 30px 50px 30px 0px;
+    
 }
 
 
@@ -193,6 +202,41 @@ nav{
 }
 
 /* Small devices (phones, less than 768px) */
+
+
 @media (max-width: 767.98px) {
+    /* le logo en haut et lien en dessous */
+    header{
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px;
+    }
+    /* la bordure top disparait et est remplacée par bordure bottom au survol */
+    .lienheader:hover{
+        border-top: none;
+        border-bottom: #0065FC solid;
+        color: #0065FC;    
+    }
+    /* recadrement des liens */
+    .lienheader{
+        padding-top:0px;
+    }
+    /* recadrement du logo */
+    .logoheader{
+        padding : 30px 50px 30px 50px;
+        
+    }
+    /* recadrement nav */
+    nav{
+        padding: 0px;
+       
+    }
+    /* pour que la bordure bottom du hover prenne toute la largeur (il doit exister un autre moyen pour cela +pour bien centrer les deux liens je n'ai pas encore trouvé) */
+    .lienheader{
+        padding:0px 60px 20px 60px;
+    }
+
+    }
     /* ... */
-}
+
+
