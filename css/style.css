@@ -118,6 +118,9 @@
 
 body{
     margin: 0;
+
+
+    /* header */
 }
 header{
     display: flex;
@@ -133,19 +136,19 @@ nav{
     padding: 0px 25px 0px 25px;
 }
 
-a{
+.lienheader{
     padding: 30px;
     text-decoration: none;
     color: black;
 
 }
-a:hover {
+.lienheader:hover {
     border-top: #0065FC solid;
     color: #0065FC;
     }
     
 
-img{
+.logoheader{
     width: 30%;
     padding: 30px 50px 30px 50px;
 }
