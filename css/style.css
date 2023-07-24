@@ -186,12 +186,11 @@ h2{
     border:1px;
     text-align: center;
     padding-top: 13px;
+    font-size: 20px;
     
 
     
 }
-
-
 
 
 .rechercher{
@@ -210,6 +209,7 @@ button{
     border-bottom-right-radius: 15px;
     font-size: 18px;
     font-weight: 700;
+    ;
 }
 
 input{
@@ -220,6 +220,7 @@ input{
     font-weight: 700;
     text-align: center;
     color: black;
+    
 }
 
 
