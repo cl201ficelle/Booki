@@ -120,7 +120,7 @@ body{
 
 }
 
-/* hebergements test */
+/********************************************************** hebergements ***************************************************************************** */
 
 .hebergements-cards img {
     width: 100%;
@@ -128,12 +128,13 @@ body{
     border-radius: 20px 20px 0px 0px;
     }
 .hebergements-cards{
-    width: 21%;
+    width: 30%;
     margin-top: 30px;
+    padding: 0px 15px 0px 15px;
 }
 
 .hebergements-cards .card{
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 .hebergements-cards .card-title{
     margin:3px;
@@ -143,7 +144,7 @@ body{
     margin: 3px;
 }
 .hebergements-cards .card-rating{
-    margin: 3px;
+    margin: 3px 3px 0px 3px;
 }
 
 .card-content-hebergements{
@@ -154,9 +155,16 @@ body{
     font-size: 14px;
 }
 
+.leshebergements-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+   }
 
 
-    /******** header *************/
+
+
+    /******************************************************* header *********************************************************/
 
 
 /* espacer le logo et les deux liens */
@@ -219,7 +227,7 @@ h4{
 }
 
 
-/* **********rechercher****** */
+/* *******************************************************************rechercher****** ******************************************************************************************************/
 
 .fa-location-dot{
     
