@@ -163,8 +163,15 @@ body{
     margin: auto;
    }
 
+.hebergements .section-title{
+    padding-left: 18px;
+}
 
-
+.afficherplus{
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 18px;
+    }
 
     /******************************************************* header *********************************************************/
 
