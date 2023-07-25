@@ -137,7 +137,7 @@ body{
     padding-bottom: 10px;
 }
 .hebergements-cards .card-title{
-    margin:3px;
+    margin:8px 3px 8px 3px; 
 }
 
 .hebergements-cards .card-subtitle{
@@ -153,6 +153,8 @@ body{
 
 .card-subtitle{
     font-size: 14px;
+    margin-top:5px;
+    margin-bottom: 5px;
 }
 
 .leshebergements-cards{
