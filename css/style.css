@@ -1,4 +1,4 @@
-/****** General ***********/
+/*************************************************************** General ********************************************************/
 * {
     font-family:'Raleway', sans-serif;
 }
@@ -52,7 +52,198 @@
     color: var(--main-bg-color)
 }
 
-/****** Hebergements And Populaires ***********/
+
+    /******************************************************* header *********************************************************/
+
+
+/* espacer le logo et les deux liens */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    
+}
+
+/* espacer les deux liens */
+nav{
+    display : flex;
+    justify-content: space-between;
+    padding: 0px 25px 0px 25px;
+}
+
+/* enlever la couleur et le soulignage des liens */
+.lienheader{
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+
+}
+
+/* créer une bordure top qui apparait quand on survole le lien et met texte en bleu */
+.lienheader:hover {
+    border-top: #0065FC solid;
+    color: #0065FC;
+    }
+    
+/* ajustement du logo */
+.logoheader{
+    width: 61px;
+    padding: 30px 50px 30px 0px;
+    
+}
+
+/* main : titre et promesse */
+
+h1{
+    font-size: 1.375em;
+    font-weight: 700;
+}
+
+
+h4{
+    font-size: 1em;
+    font-weight: 400;
+    
+}
+/* icone info */
+.fa-info{
+    border: 2px solid #F2F2F2;
+    padding: 8px 13px 8px 13px;
+    border-radius: 60px;
+    margin-right:12px;
+    font-size: 0.813;
+}
+
+
+/* *******************************************************************rechercher****** ******************************************************************************************************/
+
+.fa-location-dot{
+    
+    color: black;
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 50px;
+    height: 36px;
+    border:1px;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 1.25em;
+}
+
+
+.rechercher{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+       
+}
+
+
+button{
+    width:132px;
+    height: 49px;
+    color: white;
+    background-color: #0065FC;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 1.125em;
+    font-weight: 700;
+    }
+
+
+input{
+    width:200px;
+    height: 49px;
+    border: 1px solid #F2F2F2;
+    font-size: 1.125em;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    
+}
+
+
+.fa-magnifying-glass{
+    display: inline-block;
+    background-color: #0065FC;
+    color: white;
+    width: 50px;
+    height: 36px;
+    border:1px;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 1.25em;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px #aaa5a5;
+
+}
+
+
+/**************************************************** filtres *******************************************************************/
+
+.filtres{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    gap:20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+
+.fa-money-bill-wave{
+    padding-right: 10px;
+    width: 22px;
+    height: 22px;
+}
+
+.fa-person{
+    padding-right: 10px;
+    width: 22px;
+    height: 22px;
+}
+
+.fa-heart{
+    padding-right: 10px;
+    width: 22px;
+    height: 22px;
+}
+
+.fa-fire{
+    padding-right: 10px;
+    width: 22px;
+    height: 22px;
+}
+
+
+.economique, .familial, .romantique, .nospepites{
+    background-color:white;
+    border-radius: 20px;
+    color: black;
+    border: 2px solid #F2F2F2;
+    border-radius: 25px;
+    font-size: 1.063em;
+    font-weight: 700;
+    text-align: center;
+    padding-top:15px;
+    padding-left:19px;
+    padding-right: 19px;
+}
+
+.economique:hover, .familial:hover, .romantique:hover, .nospepites:hover{
+    background-color: #DEEBFF;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/********************** Hebergements And Populaires ***********************************/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -173,201 +364,10 @@ body{
     padding-left: 18px;
     }
 
-    /******************************************************* header *********************************************************/
-
-
-/* espacer le logo et les deux liens */
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 50px;
-    
-}
-
-/* espacer les deux liens */
-nav{
-    display : flex;
-    justify-content: space-between;
-    padding: 0px 25px 0px 25px;
-}
-
-/* enlever la couleur et le soulignage des liens */
-.lienheader{
-    padding: 30px;
-    text-decoration: none;
-    color: black;
-
-}
-
-/* créer une bordure top qui apparait quand on survole le lien et met texte en bleu */
-.lienheader:hover {
-    border-top: #0065FC solid;
-    color: #0065FC;
-    }
-    
-/* ajustement du logo */
-.logoheader{
-    width: 61px;
-    padding: 30px 50px 30px 0px;
-    
-}
-
-/* main : titre et promesse */
-
-h1{
-    font-size: 1.375em;
-    font-weight: 700;
-}
-
-
-h4{
-    font-size: 1em;
-    font-weight: 400;
-    
-}
-/* icone info */
-.fa-info{
-    border: 2px solid #F2F2F2;
-    padding: 8px 13px 8px 13px;
-    border-radius: 60px;
-    margin-right:12px;
-    font-size: 0.813;
-}
-
-
-/* *******************************************************************rechercher****** ******************************************************************************************************/
-
-.fa-location-dot{
-    
-    color: black;
-    background-color: #F2F2F2;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 50px;
-    height: 36px;
-    border:1px;
-    text-align: center;
-    padding-top: 13px;
-    font-size: 1.25em;
-}
-
-
-.rechercher{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 30px;
-    
-    
-    
-}
-
-button{
-    width:132px;
-    height: 49px;
-    color: white;
-    background-color: #0065FC;
-    border: none;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    font-size: 1.125em;
-    font-weight: 700;
-    }
-
-input{
-    width:200px;
-    height: 49px;
-    border: 1px solid #F2F2F2;
-    font-size: 1.125em;
-    font-weight: 700;
-    text-align: center;
-    color: black;
-    
-}
-
-.fa-magnifying-glass{
-    display: inline-block;
-    background-color: #0065FC;
-    color: white;
-    width: 50px;
-    height: 36px;
-    border:1px;
-    text-align: center;
-    padding-top: 13px;
-    font-size: 1.25em;
-    border-radius: 15px;
-    box-shadow: 3px 3px 3px #aaa5a5;
-
-
-}
-
-
-/* filtres */
-
-.filtres{
-    display: flex;
-    justify-content: left;
-    flex-direction: row;
-    gap:20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-   }
-
-.fa-money-bill-wave{
-    padding-right: 10px;
-    width: 22px;
-    height: 22px;
-}
-
-.fa-person{
-    padding-right: 10px;
-    width: 22px;
-    height: 22px;
-}
-
-.fa-heart{
-    padding-right: 10px;
-    width: 22px;
-    height: 22px;
-}
-
-.fa-fire{
-    padding-right: 10px;
-    width: 22px;
-    height: 22px;
-}
-
-
-.economique, .familial, .romantique, .nospepites{
-    background-color:white;
-    border-radius: 20px;
-    color: black;
-    border: 2px solid #F2F2F2;
-    border-radius: 25px;
-    font-size: 1.063em;
-    font-weight: 700;
-    text-align: center;
-    padding-top:15px;
-    padding-left:19px;
-    padding-right: 19px;
-}
-
-.economique:hover, .familial:hover, .romantique:hover, .nospepites:hover{
-    background-color: #DEEBFF;
-}
-
-
-a{
-    text-decoration: none;
-    color: black;
-}
 
 
 
-
-
-
-/* Le code ci-dessous correspond à la version responsive uniquement */
+/*************************** Le code ci-dessous correspond à la version responsive uniquement *********************************/
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
