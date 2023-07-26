@@ -26,7 +26,7 @@
 
 .section-title {
     margin: 0;
-    font-size: 22px;
+    font-size: 1.375em;
 }
 
 .card {
@@ -41,7 +41,7 @@
 }
 
 .card-title {
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .euro {
@@ -152,7 +152,7 @@ body{
 }
 
 .card-subtitle{
-    font-size: 14px;
+    font-size: 0.875em;
     margin-top:5px;
     margin-bottom: 5px;
 }
@@ -168,7 +168,7 @@ body{
 }
 
 .afficherplus{
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 700;
     padding-left: 18px;
     }
@@ -216,13 +216,13 @@ nav{
 /* main : titre et promesse */
 
 h1{
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: 700;
 }
 
 
 h4{
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
     
 }
@@ -232,7 +232,7 @@ h4{
     padding: 8px 13px 8px 13px;
     border-radius: 60px;
     margin-right:12px;
-    font-size: 13px;
+    font-size: 0.813;
 }
 
 
@@ -249,7 +249,7 @@ h4{
     border:1px;
     text-align: center;
     padding-top: 13px;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 
@@ -270,7 +270,7 @@ button{
     border: none;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 700;
     }
 
@@ -278,7 +278,7 @@ input{
     width:200px;
     height: 49px;
     border: 1px solid #F2F2F2;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 700;
     text-align: center;
     color: black;
@@ -294,7 +294,7 @@ input{
     border:1px;
     text-align: center;
     padding-top: 13px;
-    font-size: 20px;
+    font-size: 1.25em;
     border-radius: 15px;
     box-shadow: 3px 3px 3px #aaa5a5;
 
@@ -338,13 +338,13 @@ input{
 }
 
 
-.economique{
+.economique, .familial, .romantique, .nospepites{
     background-color:white;
     border-radius: 20px;
     color: black;
     border: 2px solid #F2F2F2;
     border-radius: 25px;
-    font-size: 17px;
+    font-size: 1.063em;
     font-weight: 700;
     text-align: center;
     padding-top:15px;
@@ -352,59 +352,7 @@ input{
     padding-right: 19px;
 }
 
-.economique:hover{
-    background-color: #DEEBFF;
-}
-
-.familial{
-    background-color:white;
-    border-radius: 20px;
-    color: black;
-    border: 2px solid #F2F2F2;
-    border-radius: 25px;
-    font-size: 17px;
-    font-weight: 700;
-    text-align: center;
-    padding-top:15px;
-    padding-left:19px;
-    padding-right: 19px;
-}
-.familial:hover{
-    background-color: #DEEBFF;
-}
-
-
-.romantique{
-    background-color:white;
-    border-radius: 20px;
-    color: black;
-    border: 2px solid #F2F2F2;
-    border-radius: 25px;
-    font-size: 17px;
-    font-weight: 700;
-    text-align: center;
-    padding-top:15px;
-    padding-left:19px;
-    padding-right: 19px;
-}
-.romantique:hover{
-    background-color: #DEEBFF;
-}
-
-.nospepites{
-    background-color:white;
-    border-radius: 20px;
-    color: black;
-    border: 2px solid #F2F2F2;
-    border-radius: 25px;
-    font-size: 17px;
-    font-weight: 700;
-    text-align: center;
-    padding-top:15px;
-    padding-left:19px;
-    padding-right: 19px;
-}
-.nospepites:hover{
+.economique:hover, .familial:hover, .romantique:hover, .nospepites:hover{
     background-color: #DEEBFF;
 }
 
@@ -460,11 +408,11 @@ a{
     }
 
     .populaires-cards .card-title {
-        font-size: 14px;
+        font-size: 0.875em;
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 13px;
+        font-size: 0.875em;
     }
 }
 
@@ -524,12 +472,12 @@ a{
 .titrefiltre{
     grid-column: 1/3;
 }
-.nospepites{
+.nospepites, .economique, .familial, .romantique{
     border-radius: 20px;
     color: black;
     border: 2px solid #F2F2F2;
     border-radius: 25px;
-    font-size: 15px;
+    font-size: 0.938em;
     font-weight: 700;
     text-align: center;
     padding-top:12px;
@@ -537,46 +485,7 @@ a{
     padding-right: 0px;
     height: 30px;
 }
-.economique{
-    border-radius: 20px;
-    color: black;
-    border: 2px solid #F2F2F2;
-    border-radius: 25px;
-    font-size: 15px;
-    font-weight: 700;
-    text-align: center;
-    padding-top:12px;
-    padding-left:0px;
-    padding-right: 0px;
-    height: 30px;
 
-}
-.familial{
-    border-radius: 20px;
-    color: black;
-    border: 2px solid #F2F2F2;
-    border-radius: 25px;
-    font-size: 15px;
-    font-weight: 700;
-    text-align: center;
-    padding-top:12px;
-    padding-left:0px;
-    padding-right: 0px;
-    height: 30px;
-}
-.romantique{
-    border-radius: 20px;
-    color: black;
-    border: 2px solid #F2F2F2;
-    border-radius: 25px;
-    font-size: 15px;
-    font-weight: 700;
-    text-align: center;
-    padding-top:12px;
-    padding-left:0px;
-    padding-right: 0px;
-    height: 30px;
-}
 .filtres{
     gap:10px;
     padding-top: 0px;
