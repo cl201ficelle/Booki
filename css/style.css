@@ -3,18 +3,12 @@
     font-family:'Raleway', sans-serif;
 }
 
-:root {
-    --main-color: #0065FC;
-    --main-bg-color: #F2F2F2;
-    --filter-bg-color: #DEEBFF;
-}
 
 .fa-solid {
-    color: var(--main-color);
+    color: #0065FC;
 }
 
 .main-container {
-    
     justify-content: center;
 }
 
@@ -49,7 +43,7 @@
 }
 
 .neutral-star {
-    color: var(--main-bg-color)
+    color: #F2F2F2;
 }
 
 
@@ -250,7 +244,7 @@ a{
 }
 
 .hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
+    background-color: #F2F2F2;
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
