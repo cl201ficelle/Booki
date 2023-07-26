@@ -190,7 +190,7 @@ input{
     margin-bottom: 30px;
    }
 
-.fa-money-bill-wave, fa-person, .fa-heart, .fa-fire{
+.fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
     padding-right: 10px;
     width: 22px;
     height: 22px;
