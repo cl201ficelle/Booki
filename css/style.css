@@ -180,7 +180,9 @@ input{
 
 
 /**************************************************** filtres *******************************************************************/
-
+.titrefiltre{
+    font-size: 1.125em;
+}
 .filtres{
     display: flex;
     justify-content: left;
@@ -207,7 +209,7 @@ input{
     font-size: 1.063em;
     font-weight: 700;
     text-align: center;
-    padding-top:15px;
+    padding-top:10px;
     padding-left:19px;
     padding-right: 19px;
 }
@@ -367,6 +369,30 @@ a{
 .activitéamarseille .card-title{
     padding-left: 15px;
 
+}
+
+/* ***************************footer***************************************************** */
+.footertitle{
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+footer ul{padding: 0;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0px 30px;
+    background-color: #F2F2F2;
+    margin-top:60px;
+    padding-right: 200px;
+    }
+li{
+    padding-bottom: 20px;
 }
 
 /*************************** Le code ci-dessous correspond à la version responsive uniquement *********************************/
