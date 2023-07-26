@@ -187,29 +187,12 @@ input{
     margin-bottom: 30px;
    }
 
-.fa-money-bill-wave{
+.fa-money-bill-wave, fa-person, .fa-heart, .fa-fire{
     padding-right: 10px;
     width: 22px;
     height: 22px;
 }
 
-.fa-person{
-    padding-right: 10px;
-    width: 22px;
-    height: 22px;
-}
-
-.fa-heart{
-    padding-right: 10px;
-    width: 22px;
-    height: 22px;
-}
-
-.fa-fire{
-    padding-right: 10px;
-    width: 22px;
-    height: 22px;
-}
 
 
 .economique, .familial, .romantique, .nospepites{
