@@ -154,14 +154,18 @@ button{
 input{
     width:200px;
     height: 49px;
-    border: 1px solid #F2F2F2;
     font-size: 1.125em;
     font-weight: 700;
     text-align: center;
     color: black;
+    border:none;
     
 }
-
+form{
+    border: 1px solid #F2F2F2;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
 
 .fa-magnifying-glass{
     display: inline-block;
@@ -390,6 +394,7 @@ footer{
     background-color: #F2F2F2;
     margin-top:60px;
     padding-right: 200px;
+
     }
 li{
     padding-bottom: 20px;
