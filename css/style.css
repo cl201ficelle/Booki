@@ -521,7 +521,63 @@ li{
 }
 
 
+
+.leshebergements-cards1, .leshebergements-cards2{
+    display: flex;
+    flex-direction: column;
+    }
+.hebergements-cards{
+    width: auto;
+    padding: 0;
 }
+.hebergements .section-title {
+    padding-left: 0px;
+}
+
+
+.populaires-cards{
+    display: flex;
+    flex-direction: column;
+    }
+.populaires-cards .card{
+    width: 100%;
+}
+.hebergements .section-title {
+    padding: 0;
+}
+
+
+.activitesmarseille{
+    display: flex;
+    flex-direction: column; 
+    padding: 0px;
+    gap: 15px;
+  }
+.activitesmarseille .card{
+    width: auto;
+}
+
+.activitéamarseille img{
+    height: 141px;
+   
+ }
+
+.activitéamarseille .card {
+    height:200px;
+    padding: 0px;
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+}
+
+
+
+
 
 
 @media (min-width:767.98px) {
