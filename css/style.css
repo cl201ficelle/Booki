@@ -3,7 +3,6 @@
     font-family:'Raleway', sans-serif;
 }
 
-
 .fa-solid {
     color: #0065FC;
 }
@@ -50,6 +49,8 @@ body{
     margin: 0;
 
 }
+
+
     /******************************************************* header *********************************************************/
 
 
@@ -136,7 +137,9 @@ h4{
     margin-bottom: 30px;
        
 }
-
+.rechercher ::placeholder{
+    color: black;
+}
 
 button{
     width:132px;
@@ -303,9 +306,8 @@ a{
     }
 .hebergements-cards{
     width: 30%;
-    margin-top: 30px;
-    padding: 0px 12px 0px 12px;
-}
+    margin:12.5px;
+    }
 
 .hebergements-cards .card{
     padding-bottom: 10px;
@@ -332,10 +334,11 @@ a{
 }
 
 .leshebergements-cards{
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
-    margin: auto;
-   }
+    gap:auto;
+    padding-top: 10px;
+      }
 
 .hebergements .section-title{
     padding-left: 18px;
@@ -394,8 +397,11 @@ footer{
     background-color: #F2F2F2;
     margin-top:60px;
     padding-right: 200px;
-
+    margin-bottom: auto;
+    
     }
+
+    
 li{
     padding-bottom: 20px;
 }
