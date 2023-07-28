@@ -572,6 +572,11 @@ footer{
     display: flex;
     flex-direction: column;
     padding: 10px;
+    
+}
+.hebergements-and-populaires{
+    display: flex;  
+    flex-direction: column-reverse;
 }
 }
 
