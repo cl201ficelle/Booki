@@ -50,6 +50,9 @@ body{
     margin: 0;
 
 }
+.card-subtitle{
+    font-weight: 400;
+}
 
 
     /******************************************************* header *********************************************************/
@@ -182,7 +185,7 @@ form{
     padding-top: 18px;
     font-size: 1.1em;
     border-radius: 15px;
-    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -639,6 +642,9 @@ input{
 .activitéamarseille .section-title{
     padding-bottom: 5px;
     margin-top: 0;
+}
+.hebergements-and-populaires section{
+    padding: 20px;
 }
 
 }
