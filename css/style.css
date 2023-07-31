@@ -87,7 +87,7 @@ nav{
     border-top: #0065FC solid;
     color: #0065FC;
     }
-    
+
 /* ajustement du logo */
 .logoheader{
     width: 61px;
@@ -479,6 +479,10 @@ body{
         padding: 0px;
         width: 100%;
     }
+    .lienheader{
+        border-bottom: #F2F2F2 solid 1px;
+        }
+        
     /* la bordure top disparait et est remplacée par bordure bottom au survol */
     .lienheader:hover{
         border-top: none;
@@ -556,8 +560,7 @@ body{
 
 .rechercher{
     justify-content: center;
-    width: 100%;
-}
+    }
 
 
 .leshebergements-cards{
