@@ -312,9 +312,9 @@ a{
     border-radius: 20px 20px 0px 0px;
     }
 .hebergements-cards{
-    width: 30%;
+    width: 32%;
     margin-top: 30px;
-    padding: 0px 12px 0px 12px;
+    padding: 0;
 }
 
 .hebergements-cards .card{
@@ -341,11 +341,12 @@ a{
     margin-bottom: 5px;
 }
 
-.leshebergements-cards1, .leshebergements-cards2{
+.leshebergements-cards{
     display: flex;
     flex-direction: row;
-    gap:auto;
-    }
+    gap:10px;
+    flex-wrap: wrap;
+}
 
 .hebergements .section-title{
     padding-left: 18px;
@@ -559,7 +560,7 @@ body{
 }
 
 
-.leshebergements-cards1, .leshebergements-cards2{
+.leshebergements-cards{
     display: flex;
     flex-direction: column;
     }
