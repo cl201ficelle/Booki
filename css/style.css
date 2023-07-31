@@ -154,20 +154,20 @@ button{
     }
 
 input{
-        width:220px;
+        
         height: 49px;
         font-size: 1.125em;
         font-weight: 700;
         text-align: center;
         color: black;
-        border:none;
-        
+        border:none;     
     }
+    
 form{
         border: 1px solid #F2F2F2;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
-    }
+           }
 
 .fa-magnifying-glass{
     display: inline-block;
