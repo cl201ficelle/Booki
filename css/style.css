@@ -162,7 +162,7 @@ input{
         color: black;
         border:none;     
     }
-    
+
 form{
         border: 1px solid #F2F2F2;
         border-top-right-radius: 15px;
@@ -603,7 +603,7 @@ li{
 footer{
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 30px;
     
 }
 .hebergements-and-populaires{
@@ -628,6 +628,11 @@ footer{
 .populaires-cards .card-title{
         font-size: 1em;
     }
+
+input{
+    width: 78%;
+
+}
 }
 
 
