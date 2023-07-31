@@ -521,7 +521,7 @@ li{
     font-size: 0.938em;
     font-weight: 700;
     text-align: center;
-    padding-top:10px;
+    padding-top:13px;
     padding-left:0px;
     padding-right: 0px;
     height: 35px;
@@ -568,7 +568,7 @@ li{
 .activitesmarseille{
     display: flex;
     flex-direction: column; 
-    padding: 0px;
+    padding: 20px;
     gap: 15px;
   }
 .activitesmarseille .card{
