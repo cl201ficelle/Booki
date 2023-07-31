@@ -8,14 +8,12 @@
     color: #0065FC;
 }
 
-.main-container {
-    justify-content: center;
-}
 
 .main-container {
     width: 100%;
     padding: 0 50px;
     box-sizing: border-box;
+    justify-content: center;
 }
 
 .section-title {
@@ -325,7 +323,10 @@ a{
 }
 
 .hebergements-cards .card-subtitle{
-    margin: 3px;
+    margin: 3px; 
+    font-size: 0.875em;
+    margin-top:5px;
+    margin-bottom: 5px;
 }
 .hebergements-cards .card-rating{
     margin: 3px 3px 0px 3px;
@@ -335,11 +336,6 @@ a{
     padding-left: 3px;
 }
 
-.card-subtitle{
-    font-size: 0.875em;
-    margin-top:5px;
-    margin-bottom: 5px;
-}
 
 .leshebergements-cards{
     display: flex;
@@ -464,7 +460,9 @@ body{
     .populaires-cards .card-subtitle {
         font-size: 0.875em;
     }
-
+    .nospepites, .economique, .familial, .romantique{
+        padding: 10px 0px 0px 0px;
+    }
 
 }
 
@@ -481,6 +479,7 @@ body{
     }
     .lienheader{
         border-bottom: #F2F2F2 solid 1px;
+        padding:0px 47px 20px 40px;
         }
         
     /* la bordure top disparait et est remplacée par bordure bottom au survol */
@@ -489,10 +488,8 @@ body{
         border-bottom: #0065FC solid;
         color: #0065FC;    
     }
-    /* recadrement des liens */
-    .lienheader{
-        padding-top:0px;
-    }
+ 
+        
     /* recadrement du logo */
     .logoheader{
         padding : 30px 50px 30px 50px;
@@ -503,10 +500,7 @@ body{
         padding: 0px;
        
     }
-    /* pour que la bordure bottom du hover prenne toute la largeur (il doit exister un autre moyen pour cela +pour bien centrer les deux liens je n'ai pas trouvé) */
-    .lienheader{
-        padding:0px 47px 20px 40px;
-    }
+      
 /* enlever le bouton rechercher pour mobile */
     button{
         display:none;
@@ -580,6 +574,7 @@ body{
     }
 .populaires-cards .card{
     width: 100%;
+    margin-top: 20px;
 }
 .hebergements .section-title,.populaires .section-title {
     padding: 20px 0px 0px 0px;
@@ -606,9 +601,7 @@ body{
     height: 141px;
    
  }
- .populaires-cards .card{
-    margin-top: 20px;
- }
+
 .activitéamarseille .card {
     height:200px;
     padding: 0px;
