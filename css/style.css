@@ -568,7 +568,7 @@ li{
 .activitesmarseille{
     display: flex;
     flex-direction: column; 
-    padding: 20px;
+    padding: 30px;
     gap: 15px;
   }
 .activitesmarseille .card{
