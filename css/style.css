@@ -173,14 +173,14 @@ form{
     display: inline-block;
     background-color: #0065FC;
     color: white;
-    width: 51px;
+    width: 53px;
     height: 36px;
     border:1px;
     text-align: center;
     padding-top: 18px;
     font-size: 1.1em;
     border-radius: 15px;
-    box-shadow: 3px 3px 3px #aaa5a5;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -579,7 +579,9 @@ li{
     height: 141px;
    
  }
-
+ .populaires-cards .card{
+    margin-top: 20px;
+ }
 .activitéamarseille .card {
     height:200px;
     padding: 0px;
@@ -611,6 +613,10 @@ footer{
     padding-right: 10px;
     font-size: 19px;
     
+    }
+
+    .populaires-cards .card-title{
+        font-size: 1em;
     }
 }
 
