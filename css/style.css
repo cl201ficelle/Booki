@@ -145,7 +145,7 @@ h4{
 
 button{
     width:132px;
-    height: 49px;
+    height: 53px;
     color: white;
     background-color: #0065FC;
     border: none;
@@ -418,10 +418,14 @@ li{
 /*************************** Le code ci-dessous correspond à la version responsive uniquement *********************************/
 
 /****** Media queries ***********/
+
+
+@media (max-width: 1440px){
+
+}
 /* Medium devices (tablets, less/equal than 1024px) */
 
-/* enlever icone loupe pour écran sup à mobile */
-/* display none seul ne marchait pas : trouvé la solution de rajouter !important */
+
 
 
 @media (max-width: 1024px) {
@@ -654,7 +658,8 @@ input{
 
 
 
-
+/* enlever icone loupe pour écran sup à mobile */
+/* display none seul ne marchait pas : trouvé la solution de rajouter !important */
 @media (min-width:767.98px) {
     .fa-magnifying-glass{
         display: block;
