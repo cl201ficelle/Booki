@@ -50,6 +50,8 @@ body{
     margin: 0;
 
 }
+
+
     /******************************************************* header *********************************************************/
 
 
@@ -633,6 +635,12 @@ input{
     width: 78%;
 
 }
+
+.activitéamarseille .section-title{
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
 }
 
 
