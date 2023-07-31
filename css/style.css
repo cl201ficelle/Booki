@@ -238,7 +238,7 @@ a{
 }
 
 .hebergements-and-populaires section {
-    background-color: #F2F2F2;
+    /* background-color: #F2F2F2; */
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
@@ -404,6 +404,12 @@ li{
     padding-bottom: 20px;
 }
 
+.hebergements {
+    background-color: #F2F2F2;
+    }
+.populaires{
+    background-color: #F2F2F2;
+}
 /*************************** Le code ci-dessous correspond à la version responsive uniquement *********************************/
 
 /****** Media queries ***********/
@@ -565,6 +571,12 @@ li{
 }
 
 
+.hebergements {
+    background-color: white;
+
+}
+
+
 .activitesmarseille{
     display: flex;
     flex-direction: column; 
@@ -606,9 +618,7 @@ footer{
 .populaires{
     margin: auto;
 }
-.hebergements section{
-    background-color: white;
-}
+
 .fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
     padding-right: 10px;
     font-size: 19px;
