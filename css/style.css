@@ -521,7 +521,7 @@ li{
     font-size: 0.938em;
     font-weight: 700;
     text-align: center;
-    padding-top:13px;
+    padding-top:10px;
     padding-left:0px;
     padding-right: 0px;
     height: 35px;
@@ -615,7 +615,7 @@ footer{
     
     }
 
-    .populaires-cards .card-title{
+.populaires-cards .card-title{
         font-size: 1em;
     }
 }
