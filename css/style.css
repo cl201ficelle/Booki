@@ -122,7 +122,7 @@ h4{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     width: 50px;
-    height: 36px;
+    height: 41px;
     border:1px;
     text-align: center;
     padding-top: 15px;
@@ -134,7 +134,7 @@ h4{
     display: flex;
     flex-direction: row;
     margin-bottom: 30px;
-       
+           
 }
 
 
@@ -154,7 +154,7 @@ button{
     }
 
 input{
-        width:200px;
+        width:220px;
         height: 49px;
         font-size: 1.125em;
         font-weight: 700;
@@ -173,12 +173,12 @@ form{
     display: inline-block;
     background-color: #0065FC;
     color: white;
-    width: 50px;
+    width: 51px;
     height: 36px;
     border:1px;
     text-align: center;
-    padding-top: 13px;
-    font-size: 1.25em;
+    padding-top: 18px;
+    font-size: 1.1em;
     border-radius: 15px;
     box-shadow: 3px 3px 3px #aaa5a5;
 
@@ -244,6 +244,7 @@ a{
     box-sizing: border-box;
 }
 
+
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
@@ -294,7 +295,9 @@ a{
     margin-bottom: 5px;
 }
 
-
+.fa-chart-line{
+    font-size: 18px;
+}
 
 /********************************************************** hebergements ***************************************************************************** */
 
@@ -454,6 +457,7 @@ li{
         flex-direction: column;
         justify-content: center;
         padding: 0px;
+        width: 100%;
     }
     /* la bordure top disparait et est remplacée par bordure bottom au survol */
     .lienheader:hover{
@@ -477,7 +481,7 @@ li{
     }
     /* pour que la bordure bottom du hover prenne toute la largeur (il doit exister un autre moyen pour cela +pour bien centrer les deux liens je n'ai pas trouvé) */
     .lienheader{
-        padding:0px 60px 20px 60px;
+        padding:0px 47px 20px 40px;
     }
 /* enlever le bouton rechercher pour mobile */
     button{
@@ -486,9 +490,16 @@ li{
 
 
     .main-container{
-        padding: 25px;
+        padding: 0px;
     }
 
+    .hebergements-and-populaires section{
+        border-radius: 0px;
+    }
+
+    .section1{
+        padding: 0px 18px 0px 18px;
+        }
     
 /* mettre les filtres en colonne */
     .filtres{
@@ -514,12 +525,18 @@ li{
     padding-right: 0px;
     height: 30px;
 }
-
+.familial{
+    padding-right: 32px;
+}
 .filtres{
     gap:10px;
     padding-top: 0px;
 }
 
+.rechercher{
+    justify-content: center;
+    width: 100%;
+}
 
 
 .leshebergements-cards1, .leshebergements-cards2{
@@ -577,8 +594,20 @@ footer{
 .hebergements-and-populaires{
     display: flex;  
     flex-direction: column-reverse;
+    
+}
+.fa-info{
+    font-size: 12px;
+    padding: 5px 8px 5px 8px;
+}
+.populaires{
+    margin: auto;
+}
+.hebergements section{
+    background-color: white;
 }
 }
+
 
 
 
@@ -589,6 +618,7 @@ footer{
     .fa-magnifying-glass{
         display: block;
         display:none !important;
+        
     }
 
         
