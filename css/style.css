@@ -104,7 +104,7 @@ h1{
     font-weight: 700;
 }
 
-
+/* h4=promesse */
 h4{
     font-size: 1em;
     font-weight: 400;
@@ -121,9 +121,8 @@ h4{
 
 
 /* *******************************************************************rechercher****** ******************************************************************************************************/
-
+/* icone location */
 .fa-location-dot{
-    
     color: black;
     background-color: #F2F2F2;
     border-top-left-radius: 15px;
@@ -136,7 +135,7 @@ h4{
     font-size: 1.18em;
 }
 
-
+/* block de recherche */
 .rechercher{
     display: flex;
     flex-direction: row;
@@ -144,7 +143,7 @@ h4{
            
 }
 
-
+/* bouton rechercher */
 button{
     width:132px;
     height: 49px;
@@ -156,6 +155,8 @@ button{
     font-size: 1em;
     font-weight: 700;
     }
+
+    /* ce qu'il y a écrit dans l'input */
 .rechercher ::placeholder{
         color: black;
     }
@@ -175,7 +176,7 @@ form{
         border-bottom-right-radius: 15px;
         height: 48px;
            }
-
+/* icone glass pour les screens inf à 768px */
 .fa-magnifying-glass{
     display: inline-block;
     background-color: #0065FC;
@@ -196,6 +197,8 @@ form{
 .titrefiltre{
     font-size: 1.125em;
 }
+
+/* mettre les filtres en row */
 .filtres{
     display: flex;
     justify-content: left;
@@ -204,7 +207,7 @@ form{
     margin-top: 30px;
     margin-bottom: 30px;
    }
-
+/* icone filtre */
 .fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
     padding-right: 10px;
     width: 22px;
@@ -213,7 +216,7 @@ form{
 }
 
 
-
+/* mise en page texte filtre */
 .economique, .familial, .romantique, .nospepites{
     background-color:white;
     border-radius: 20px;
@@ -228,11 +231,12 @@ form{
     padding-right: 19px;
 }
 
+/* hover quand on passe souris dessus */
 .economique:hover, .familial:hover, .romantique:hover, .nospepites:hover{
     background-color: #DEEBFF;
 }
 
-
+/* enleve mise en page de base des liens */
 a{
     text-decoration: none;
     color: black;
@@ -240,13 +244,13 @@ a{
 
 
 /********************** Hebergements And Populaires ***********************************/
+/* card hebergements à côté de card populaires */
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
 }
-
+/* faire un carré autour des deux sections */
 .hebergements-and-populaires section {
-    /* background-color: #F2F2F2; */
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
@@ -254,15 +258,18 @@ a{
 
 
 /****** Hebergements ***********/
+/* largeur hébergements */
 .hebergements {
     width: 65%;
 }
 
 /****** Populaires ***********/
+/* largeur populaire */
 .populaires {
     width: 32%;
 }
 
+/* pour avoir le titre et icone sur la même ligne et à distance */
 .populaires-title {
     display: flex;
     justify-content: space-between;
