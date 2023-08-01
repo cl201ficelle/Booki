@@ -8,6 +8,10 @@
     color: #0065FC;
 }
 
+h2{
+    font-weight: 700;
+}
+
 
 .main-container {
     width: 100%;
@@ -461,8 +465,20 @@ body{
         font-size: 0.875em;
     }
     .nospepites, .economique, .familial, .romantique{
-        padding: 10px 0px 0px 0px;
+        padding: 9px 8px 6px 4px;
+        font-size: 1em;
     }
+    .fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
+        padding-right: 10px;
+        font-size: 22px;
+        
+        }
+        .activitéamarseille img{
+            height: 200px;
+        }
+        .activitéamarseille .card{
+            height: 270px;
+        }
 
 }
 
