@@ -675,6 +675,9 @@ input{
 .leshebergements-cards :nth-child(5) { order: 2; }
 .leshebergements-cards :nth-child(6) { order: 5; }
 
+.activitesmarseille .card{
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.1));
+}
 }
 
 
