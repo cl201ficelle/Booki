@@ -198,7 +198,7 @@ form{
 
 
 /**************************************************** filtres *******************************************************************/
-.titrefiltre{
+.filtre-title{
     font-size: 1.125em;
 }
 
@@ -404,7 +404,7 @@ a{
 }
 
 /* ***************************footer***************************************************** */
-.footertitle{
+.footer-title{
     font-size: 1.125em;
     font-weight: 700;
 }
@@ -542,7 +542,7 @@ body{
         margin-bottom: 15px;
     }
 
-    .titrefiltre{
+    .filtre-title{
         margin-bottom: 5px;
     }
     .populaires .section-title{
@@ -575,7 +575,7 @@ body{
         
     }
     /* mettre Filtre sur une seule ligne */
-.titrefiltre{
+.filtre-title{
     grid-column: 1/3;
     margin-top: 0;
 }
