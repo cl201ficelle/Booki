@@ -3,18 +3,21 @@
     font-family:'Raleway', sans-serif;
 }
 
+
 .fa-solid {
     color: #0065FC;
 }
 
-.main-container {
-    justify-content: center;
+h2{
+    font-weight: 700;
 }
+
 
 .main-container {
     width: 100%;
     padding: 0 50px;
     box-sizing: border-box;
+    justify-content: center;
 }
 
 .section-title {
@@ -49,6 +52,9 @@ body{
     margin: 0;
 
 }
+.card-subtitle{
+    font-weight: 400;
+}
 
 
     /******************************************************* header *********************************************************/
@@ -71,7 +77,7 @@ nav{
 }
 
 /* enlever la couleur et le soulignage des liens */
-.lienheader{
+.link-header{
     padding: 30px;
     text-decoration: none;
     color: black;
@@ -79,11 +85,11 @@ nav{
 }
 
 /* créer une bordure top qui apparait quand on survole le lien et met texte en bleu */
-.lienheader:hover {
+.link-header:hover {
     border-top: #0065FC solid;
     color: #0065FC;
     }
-    
+
 /* ajustement du logo */
 .logoheader{
     width: 61px;
@@ -98,49 +104,48 @@ h1{
     font-weight: 700;
 }
 
-
-h4{
+.promesse{
     font-size: 1em;
     font-weight: 400;
     
-}
+} 
 /* icone info */
 .fa-info{
-    border: 2px solid #F2F2F2;
+    border: 1px solid #D9D9D9;
     padding: 8px 13px 8px 13px;
     border-radius: 60px;
     margin-right:12px;
-    font-size: 0.813;
+    font-size: 0.813em;
+}
+h4{
+    font-size: 1em;
+    font-weight: 400;
 }
 
-
 /* *******************************************************************rechercher****** ******************************************************************************************************/
-
+/* icone location */
 .fa-location-dot{
-    
     color: black;
     background-color: #F2F2F2;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     width: 50px;
-    height: 36px;
+    height: 35px;
     border:1px;
     text-align: center;
     padding-top: 15px;
-    font-size: 1.25em;
+    font-size: 1.18em;
 }
 
-
+/* block de recherche */
 .rechercher{
     display: flex;
     flex-direction: row;
     margin-bottom: 30px;
-       
-}
-.rechercher ::placeholder{
-    color: black;
+           
 }
 
+/* bouton rechercher */
 button{
     width:132px;
     height: 49px;
@@ -149,47 +154,55 @@ button{
     border: none;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    font-size: 1.125em;
+    font-size: 1em;
     font-weight: 700;
     }
 
+    /* ce qu'il y a écrit dans l'input */
+
+.rechercher ::placeholder{
+        color: black;
+    }
 
 input{
-    width:200px;
-    height: 49px;
-    font-size: 1.125em;
-    font-weight: 700;
-    text-align: center;
-    color: black;
-    border:none;
-    
-}
-form{
-    border: 1px solid #F2F2F2;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
+        
+        font-size: 1.125em;
+        font-weight: 700;
+        text-align: center;
+        color: black;
+        border:none;     
+    }
 
+form{
+        border: 1px solid #F2F2F2;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        height: 48px;
+           }
+
+/* icone glass pour les screens inf à 768px */
 .fa-magnifying-glass{
     display: inline-block;
     background-color: #0065FC;
     color: white;
-    width: 50px;
-    height: 36px;
+    width: 49px;
+    height: 35px;
     border:1px;
     text-align: center;
-    padding-top: 13px;
-    font-size: 1.25em;
+    padding-top: 15px;
+    font-size: 1.1em;
     border-radius: 15px;
-    box-shadow: 3px 3px 3px #aaa5a5;
+    box-shadow: 1px 6px 3px rgba(0, 0, 0, 0.1);;
 
 }
 
 
 /**************************************************** filtres *******************************************************************/
-.titrefiltre{
+.filtre-title{
     font-size: 1.125em;
 }
+
+/* mettre les filtres en row */
 .filtres{
     display: flex;
     justify-content: left;
@@ -198,34 +211,36 @@ form{
     margin-top: 30px;
     margin-bottom: 30px;
    }
-
+/* icone filtre */
 .fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
     padding-right: 10px;
     width: 22px;
     height: 22px;
+    font-size: 22px;
 }
 
 
-
-.economique, .familial, .romantique, .nospepites{
+/* mise en page texte filtre */
+.economique, .familial, .romantique, .nos-pepites{
     background-color:white;
     border-radius: 20px;
     color: black;
-    border: 2px solid #F2F2F2;
+    border: 2px solid #D9D9D9;
     border-radius: 25px;
     font-size: 1.063em;
     font-weight: 700;
     text-align: center;
-    padding-top:10px;
+    padding-top:8px;
     padding-left:19px;
     padding-right: 19px;
 }
 
-.economique:hover, .familial:hover, .romantique:hover, .nospepites:hover{
+/* hover quand on passe souris dessus */
+.economique:hover, .familial:hover, .romantique:hover, .nos-pepites:hover{
     background-color: #DEEBFF;
 }
 
-
+/* enleve mise en page de base des liens */
 a{
     text-decoration: none;
     color: black;
@@ -233,39 +248,43 @@ a{
 
 
 /********************** Hebergements And Populaires ***********************************/
+/* card hebergements à côté de card populaires */
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
 }
-
+/* faire un carré autour des deux sections */
 .hebergements-and-populaires section {
-    background-color: #F2F2F2;
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
 }
 
+
 /****** Hebergements ***********/
+/* largeur hébergements */
 .hebergements {
     width: 65%;
 }
 
 /****** Populaires ***********/
+/* largeur populaire */
 .populaires {
     width: 32%;
 }
 
+/* pour avoir le titre et icone sur la même ligne et à distance */
 .populaires-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+/* les 3 cards populaires : en column */
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
 }
-
+/* taille image dans les cards populaires + ajout border radius */
 .populaires-cards img {
     width: 33%;
     height: 136px;
@@ -273,6 +292,7 @@ a{
     border-bottom-left-radius: 20px;
 }
 
+/* card content : title, subtitle + rating flex en colonne + 67% complémentaire à l'img */
 .populaires-cards .card-content {
     width: 67%;
     padding-left: 15px;
@@ -295,19 +315,26 @@ a{
     margin-bottom: 5px;
 }
 
-
+/* icone graphique */
+.fa-chart-line{
+    font-size: 18px;
+}
 
 /********************************************************** hebergements ***************************************************************************** */
 
+/* img hebergements : cette fois en ligne donc 100% de largeur */
 .hebergements-cards img {
     width: 100%;
     height: 124px;
     border-radius: 20px 20px 0px 0px;
     }
+
+/* taille card environ 1/3 de l'espace car 3 card par ligne */
 .hebergements-cards{
-    width: 30%;
-    margin:12.5px;
-    }
+    width: 32%;
+    margin-top: 30px;
+    padding: 0;
+}
 
 .hebergements-cards .card{
     padding-bottom: 10px;
@@ -317,7 +344,10 @@ a{
 }
 
 .hebergements-cards .card-subtitle{
-    margin: 3px;
+    margin: 3px; 
+    font-size: 0.875em;
+    margin-top:5px;
+    margin-bottom: 5px;
 }
 .hebergements-cards .card-rating{
     margin: 3px 3px 0px 3px;
@@ -327,59 +357,54 @@ a{
     padding-left: 3px;
 }
 
-.card-subtitle{
-    font-size: 0.875em;
-    margin-top:5px;
-    margin-bottom: 5px;
-}
-
-.leshebergements-cards{
-    display: inline-flex;
+/* pour que les cards soient en row, avec un gap et wrap quand taille écran diminue */
+.all-hebergements-cards{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
     flex-wrap: wrap;
-    gap:auto;
-    padding-top: 10px;
-      }
+}
 
 .hebergements .section-title{
     padding-left: 18px;
 }
 
-.afficherplus{
+.afficher-plus{
     font-size: 1.125em;
     font-weight: 700;
-    padding-left: 18px;
-    }
+  
+}
 
     /****************************************************************** Activité Marseille************************************** */
-.activitéamarseille .section-title{
+.activites-marseille .section-title{
     padding: 35px;
     margin-top: 30px;
 }
 
-.activitéamarseille .card {
+.activites-marseille .card {
     height: 439px;
     width: 23%;
     padding: 0px;
 }
 
-.activitéamarseille img {
+.activites-marseille img {
     width: 100%;
     height: 380px;
     border-radius: 20px 20px 0px 0px;
     }
-.activitesmarseille{
+.all-activites{
     display:flex;
     justify-content: space-between;
     padding: 0px 35px 0px 35px;
 }
 
-.activitéamarseille .card-title{
+.activites-marseille .card-title{
     padding-left: 15px;
 
 }
 
 /* ***************************footer***************************************************** */
-.footertitle{
+.footer-title{
     font-size: 1.125em;
     font-weight: 700;
 }
@@ -397,30 +422,34 @@ footer{
     background-color: #F2F2F2;
     margin-top:60px;
     padding-right: 200px;
-    margin-bottom: auto;
-    
     }
-
-    
 li{
     padding-bottom: 20px;
 }
 
-/*************************** Le code ci-dessous correspond à la version responsive uniquement *********************************/
-
-/****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
-
-/* enlever icone loupe pour écran sup à mobile */
-/* display none seul ne marchait pas : trouvé la solution de rajouter !important */
-@media (min-width:767.98px) {
-    .fa-magnifying-glass{
-        display: block;
-        display:none !important;
+.hebergements {
+    background-color: #F2F2F2;
     }
-
-        
+.populaires{
+    background-color: #F2F2F2;
 }
+
+
+/************************************************************** Le code ci-dessous correspond à la version responsive uniquement *********************************/
+
+/*************************** Media queries **********************************************/
+
+/*********************** large desktop************ ******/
+@media (min-width: 1440px){
+
+body{
+    width: 1440px;
+    margin: auto;
+}
+}
+
+
+/* Medium devices (tablets, less/equal than 1024px) */
 
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
@@ -453,9 +482,25 @@ li{
     .populaires-cards .card-subtitle {
         font-size: 0.875em;
     }
+    .nos-pepites, .economique, .familial, .romantique{
+        padding: 9px 8px 6px 4px;
+        font-size: 1em;
+    }
+    .fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
+        padding-right: 10px;
+        font-size: 22px;
+        
+        }
+        .activitéamarseille img{
+            height: 200px;
+        }
+        .activitéamarseille .card{
+            height: 270px;
+        }
+
 }
 
-/* Small devices (phones, less than 768px) */
+/***************************************************************** Small devices (phones, less than 768px) **********************************************************************************/
 
 
 @media (max-width: 767.98px) {
@@ -464,17 +509,21 @@ li{
         flex-direction: column;
         justify-content: center;
         padding: 0px;
+        width: 100%;
     }
+    .link-header{
+        border-bottom: #F2F2F2 solid 2px;
+        padding:0px 47px 20px 40px;
+        }
+        
     /* la bordure top disparait et est remplacée par bordure bottom au survol */
-    .lienheader:hover{
+    .link-header:hover{
         border-top: none;
         border-bottom: #0065FC solid;
         color: #0065FC;    
     }
-    /* recadrement des liens */
-    .lienheader{
-        padding-top:0px;
-    }
+ 
+        
     /* recadrement du logo */
     .logoheader{
         padding : 30px 50px 30px 50px;
@@ -485,10 +534,21 @@ li{
         padding: 0px;
        
     }
-    /* pour que la bordure bottom du hover prenne toute la largeur (il doit exister un autre moyen pour cela +pour bien centrer les deux liens je n'ai pas trouvé) */
-    .lienheader{
-        padding:0px 60px 20px 60px;
+    .title h4{
+        margin-top: 0;
+        margin-bottom: 10px;
     }
+    .section1 h4{
+        margin-bottom: 15px;
+    }
+
+    .filtre-title{
+        margin-bottom: 5px;
+    }
+    .populaires .section-title{
+        padding: 8px 0px 0px 0px; ;
+    }
+      
 /* enlever le bouton rechercher pour mobile */
     button{
         display:none;
@@ -496,9 +556,16 @@ li{
 
 
     .main-container{
-        padding: 25px;
+        padding: 0px;
     }
 
+    .hebergements-and-populaires section{
+        border-radius: 0px;
+    }
+
+    .section1{
+        padding: 0px 20px 0px 20px;
+        }
     
 /* mettre les filtres en colonne */
     .filtres{
@@ -508,29 +575,169 @@ li{
         
     }
     /* mettre Filtre sur une seule ligne */
-.titrefiltre{
+.filtre-title{
     grid-column: 1/3;
+    margin-top: 0;
 }
-.nospepites, .economique, .familial, .romantique{
+.nos-pepites, .economique, .familial, .romantique{
     border-radius: 20px;
     color: black;
-    border: 2px solid #F2F2F2;
+    border: 2px solid #D9D9D9;
     border-radius: 25px;
-    font-size: 0.938em;
+    font-size: 0.875em;
     font-weight: 700;
     text-align: center;
-    padding-top:12px;
+    padding-top:9px;
     padding-left:0px;
     padding-right: 0px;
-    height: 30px;
+    height: 37px;
 }
 
+
+
+.familial{
+    padding-right: 32px;
+}
 .filtres{
     gap:10px;
     padding-top: 0px;
 }
 
+.rechercher{
+    justify-content: center;
+    }
+
+
+.all-hebergements-cards{
+    display: flex;
+    flex-direction: column;
+    gap:0px
+    }
+.hebergements-cards{
+    width: auto;
+    padding: 0;
 }
-    /* ... */
 
 
+
+.populaires-cards{
+    display: flex;
+    flex-direction: column;
+    }
+.populaires-cards .card{
+    width: 100%;
+    margin-top: 15px;
+}
+.hebergements .section-title{
+    padding: 20px 0px 0px 0px;
+}
+
+
+.hebergements {
+    background-color: white;
+
+}
+
+
+.all-activites{
+    display: flex;
+    flex-direction: column; 
+    padding: 30px;
+    gap: 15px;
+  }
+.all-activites .card{
+    width: auto;
+}
+
+.activitéamarseille img{
+    height: 141px;
+   
+ }
+
+.activitéamarseille .card {
+    height:200px;
+    padding: 0px;
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 30px;
+    
+}
+.hebergements-and-populaires{
+    display: flex;  
+    flex-direction: column-reverse;
+    
+}
+.fa-info{
+    font-size: 0.67em;
+    padding: 4px 8px 5px 8px;
+}
+.populaires{
+    margin: auto;
+}
+
+.fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
+    padding-right: 10px;
+    font-size: 22px;
+    
+    }
+
+.populaires-cards .card-title{
+        font-size: 1em;
+    }
+
+input{
+    width: 80.7%;
+
+}
+
+.activites-marseille .section-title{
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+.hebergements-and-populaires section{
+    padding: 20px;
+}
+/* mettre les différentes card dans le bonne ordre mobile */
+.all-hebergements-cards :nth-child(1) { order: 1; }
+.all-hebergements-cards :nth-child(2) { order: 6; }
+.all-hebergements-cards :nth-child(3) { order: 3; }
+.all-hebergements-cards :nth-child(4) { order: 4; }
+.all-hebergements-cards :nth-child(5) { order: 2; }
+.all-hebergements-cards :nth-child(6) { order: 5; }
+
+.all-activites .card{
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.1));
+}
+}
+
+
+
+
+
+
+/* enlever icone loupe pour écran sup à mobile */
+/* display none seul ne marchait pas : trouvé la solution de rajouter !important */
+@media (min-width:767.98px) {
+    .fa-magnifying-glass{
+        display: block;
+        display:none !important;
+        
+    }
+
+        
+}  
+/* essai solution pour que icone glass ne parte pas en dessous a partir de moins de 345px */
+@media (max-width:345px) {
+    input{
+        width: 40%;
+  }
+     ::placeholder{
+        font-size: 0.8em;
+         }
+    
+}/* ... */
