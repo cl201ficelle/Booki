@@ -491,10 +491,10 @@ body{
         font-size: 22px;
         
         }
-        .activitéamarseille img{
+    .activites-marseille img{
             height: 200px;
         }
-        .activitéamarseille .card{
+    .activites-marseille .card{
             height: 270px;
         }
 
@@ -590,7 +590,7 @@ body{
     padding-top:9px;
     padding-left:0px;
     padding-right: 0px;
-    height: 37px;
+    height: 31px;
 }
 
 
@@ -649,12 +649,12 @@ body{
     width: auto;
 }
 
-.activitéamarseille img{
+.activites-marseille img{
     height: 141px;
    
  }
 
-.activitéamarseille .card {
+.activites-marseille .card {
     height:200px;
     padding: 0px;
     width: 100%;
