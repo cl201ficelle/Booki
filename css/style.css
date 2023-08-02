@@ -104,12 +104,11 @@ h1{
     font-weight: 700;
 }
 
-/* h4=promesse */
-h4{
+.promesse{
     font-size: 1em;
     font-weight: 400;
     
-}
+} 
 /* icone info */
 .fa-info{
     border: 1px solid #D9D9D9;
@@ -157,6 +156,7 @@ button{
     }
 
     /* ce qu'il y a écrit dans l'input */
+
 .rechercher ::placeholder{
         color: black;
     }
@@ -176,6 +176,7 @@ form{
         border-bottom-right-radius: 15px;
         height: 48px;
            }
+
 /* icone glass pour les screens inf à 768px */
 .fa-magnifying-glass{
     display: inline-block;
@@ -354,7 +355,7 @@ a{
 }
 
 /* pour que les cards soient en row, avec un gap et wrap quand taille écran diminue */
-.leshebergements-cards{
+.all-hebergements-cards{
     display: flex;
     flex-direction: row;
     gap:10px;
@@ -365,7 +366,7 @@ a{
     padding-left: 18px;
 }
 
-.afficherplus{
+.afficher-plus{
     font-size: 1.125em;
     font-weight: 700;
   
@@ -604,7 +605,7 @@ body{
     }
 
 
-.leshebergements-cards{
+.all-hebergements-cards{
     display: flex;
     flex-direction: column;
     gap:0px
@@ -699,12 +700,12 @@ input{
     padding: 20px;
 }
 /* mettre les différentes card dans le bonne ordre mobile */
-.leshebergements-cards :nth-child(1) { order: 1; }
-.leshebergements-cards :nth-child(2) { order: 6; }
-.leshebergements-cards :nth-child(3) { order: 3; }
-.leshebergements-cards :nth-child(4) { order: 4; }
-.leshebergements-cards :nth-child(5) { order: 2; }
-.leshebergements-cards :nth-child(6) { order: 5; }
+.all-hebergements-cards :nth-child(1) { order: 1; }
+.all-hebergements-cards :nth-child(2) { order: 6; }
+.all-hebergements-cards :nth-child(3) { order: 3; }
+.all-hebergements-cards :nth-child(4) { order: 4; }
+.all-hebergements-cards :nth-child(5) { order: 2; }
+.all-hebergements-cards :nth-child(6) { order: 5; }
 
 .activitesmarseille .card{
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.1));
