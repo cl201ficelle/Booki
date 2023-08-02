@@ -437,8 +437,9 @@ li{
 
 /*********************** large desktop************ ******/
 @media (min-width: 1440px){
+
 body{
-    width: 80%;
+    width: 1440px;
     margin: auto;
 }
 }
