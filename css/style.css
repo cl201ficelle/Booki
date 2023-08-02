@@ -221,7 +221,7 @@ form{
 
 
 /* mise en page texte filtre */
-.economique, .familial, .romantique, .nospepites{
+.economique, .familial, .romantique, .nos-pepites{
     background-color:white;
     border-radius: 20px;
     color: black;
@@ -236,7 +236,7 @@ form{
 }
 
 /* hover quand on passe souris dessus */
-.economique:hover, .familial:hover, .romantique:hover, .nospepites:hover{
+.economique:hover, .familial:hover, .romantique:hover, .nos-pepites:hover{
     background-color: #DEEBFF;
 }
 
@@ -482,7 +482,7 @@ body{
     .populaires-cards .card-subtitle {
         font-size: 0.875em;
     }
-    .nospepites, .economique, .familial, .romantique{
+    .nos-pepites, .economique, .familial, .romantique{
         padding: 9px 8px 6px 4px;
         font-size: 1em;
     }
@@ -579,7 +579,7 @@ body{
     grid-column: 1/3;
     margin-top: 0;
 }
-.nospepites, .economique, .familial, .romantique{
+.nos-pepites, .economique, .familial, .romantique{
     border-radius: 20px;
     color: black;
     border: 2px solid #D9D9D9;
