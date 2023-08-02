@@ -249,6 +249,15 @@ a{
 
 /********************** Hebergements And Populaires ***********************************/
 /* card hebergements à côté de card populaires */
+
+.populaires .card-rating{
+    font-size: 0.95em;
+}
+.hebergements .card-rating{
+    font-size: 1.05em;
+}
+
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -279,6 +288,7 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+
 /* les 3 cards populaires : en column */
 .populaires-cards .card {
     display: flex;
@@ -700,8 +710,12 @@ input{
     margin-top: 10px;
 }
 .hebergements-and-populaires section{
-    padding: 20px;
+    padding: 20px 20px 23px 20px;
 }
+
+
+
+
 /* mettre les différentes card dans le bonne ordre mobile */
 .all-hebergements-cards :nth-child(1) { order: 1; }
 .all-hebergements-cards :nth-child(2) { order: 6; }
