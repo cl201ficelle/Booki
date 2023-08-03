@@ -746,6 +746,13 @@ input{
 
 .all-activites .card{
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.1));
+}  
+.info{
+        display: flex;
+        flex-direction: row;
+    }
+.fa-info{
+    height:11px;
 }
 }
 
@@ -762,6 +769,7 @@ input{
         display:none !important;
         
     }
+  
 
         
 }  
