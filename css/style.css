@@ -755,9 +755,20 @@ input{
     height:11px;
 }
 }
+@media (max-width:292px){
+.filtres{
+    font-size: 0.95em;
+}
+.fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
+    font-size: 1.1em;
+    padding:0;    
+}
+.economique, .familial, .romantique, .nos-pepites{
+    padding: 11px 0px 0px 0px;
+}
 
 
-
+}
 
 
 
@@ -775,9 +786,7 @@ input{
 }  
 /* essai solution pour que icone glass ne parte pas en dessous a partir de moins de 345px */
 @media (max-width:345px) {
-    /* input{
-        width: 40%;
-  } */
+   
      ::placeholder{
         font-size: 0.8em;
          }
