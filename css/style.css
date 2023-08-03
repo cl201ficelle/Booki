@@ -611,7 +611,9 @@ body{
     height: 31px;
 }
 
-
+.card{
+    padding: 0px;
+}
 
 .familial{
     padding-right: 32px;
