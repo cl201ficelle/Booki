@@ -247,19 +247,18 @@ a{
 /**************************** icone info **********************/
 .info{
     display: flex;
-    flex-direction: row;
     align-items: center;
 }
 
 
 .fa-info{
     border: 1px solid #D9D9D9;
-    padding: 8px 13px 8px 13px;
+    padding: 4px 8px 4px 8px;
     border-radius: 60px;
     margin-right:12px;
-    font-size: 0.813em; 
-    height: 14px;
-}
+    font-size: 0.67em; 
+   }
+
 .info h4{
     font-size: 1em;
     font-weight: 400;
@@ -708,10 +707,7 @@ footer{
     flex-direction: column-reverse;
     
 }
-.fa-info{
-    font-size: 0.67em;
-    padding: 4px 8px 5px 8px;
-}
+
 .populaires{
     margin: auto;
 }
@@ -749,14 +745,12 @@ input{
 .all-activites .card{
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.1));
 }  
-.info{
-        display: flex;
-        flex-direction: row;
-    }
-.fa-info{
-    height:11px;
+
+
+
 }
-}
+
+
 @media (max-width:292px){
 .filtres{
     font-size: 0.9em;
