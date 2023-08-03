@@ -518,7 +518,9 @@ body{
     .activites-marseille .card{
             height: 270px;
         }
-
+.hebergements .card-title{
+    font-size: 0.9em;
+}
 }
 
 /***************************************************************** Small devices (phones, less than 768px) **********************************************************************************/
