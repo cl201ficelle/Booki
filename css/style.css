@@ -113,18 +113,7 @@ h1{
     font-weight: 400;
     
 } 
-/* icone info */
-.fa-info{
-    border: 1px solid #D9D9D9;
-    padding: 8px 13px 8px 13px;
-    border-radius: 60px;
-    margin-right:12px;
-    font-size: 0.813em;
-}
-h4{
-    font-size: 1em;
-    font-weight: 400;
-}
+
 
 /* *******************************************************************rechercher****** ******************************************************************************************************/
 /* icone location */
@@ -255,6 +244,26 @@ a{
     color: black;
 }
 
+/**************************** icone info **********************/
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.fa-info{
+    border: 1px solid #D9D9D9;
+    padding: 8px 13px 8px 13px;
+    border-radius: 60px;
+    margin-right:12px;
+    font-size: 0.813em; 
+    height: 14px;
+}
+.info h4{
+    font-size: 1em;
+    font-weight: 400;
+}
 
 /********************** Hebergements And Populaires ***********************************/
 /* card hebergements à côté de card populaires */
