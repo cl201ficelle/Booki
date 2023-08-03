@@ -531,13 +531,15 @@ body{
     }
     .link-header{
         border-bottom: #F2F2F2 solid 2px;
-        padding:0px 47px 20px 40px;
+        padding:0px 0px 15px 0px;
+        width: 100%;
+        text-align:center ;
         }
         
     /* la bordure top disparait et est remplacée par bordure bottom au survol */
     .link-header:hover{
         border-top: none;
-        border-bottom: #0065FC solid;
+        border-bottom: #0065FC solid 2px;
         color: #0065FC;    
     }
  
@@ -550,6 +552,8 @@ body{
     /* recadrement nav */
     nav{
         padding: 0px;
+        width: 100%;
+        
        
     }
     .title h4{
