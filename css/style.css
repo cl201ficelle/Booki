@@ -12,6 +12,9 @@ h2{
     font-weight: 700;
 }
 
+h3{
+    font-weight: 700;
+}
 
 .main-container {
     width: 100%;
@@ -173,7 +176,10 @@ input{
         border:none;     
     }
 
-form{
+.rechercher form{
+    display: flex;
+    flex-direction: row;
+
         border: 1px solid #F2F2F2;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
@@ -181,12 +187,14 @@ form{
            }
 
 /* icone glass pour les screens inf à 768px */
-.fa-magnifying-glass{
-    display: inline-block;
+.glass i{
+    position:relative;
+    left:3px;
+    /* display: inline-block; */
     background-color: #0065FC;
     color: white;
     width: 49px;
-    height: 35px;
+    height: 34px;
     border:1px;
     text-align: center;
     padding-top: 15px;
@@ -747,9 +755,9 @@ input{
 }  
 /* essai solution pour que icone glass ne parte pas en dessous a partir de moins de 345px */
 @media (max-width:345px) {
-    input{
+    /* input{
         width: 40%;
-  }
+  } */
      ::placeholder{
         font-size: 0.8em;
          }
