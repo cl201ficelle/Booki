@@ -500,8 +500,11 @@ body{
     .populaires-cards .card-subtitle {
         font-size: 0.875em;
     }
+    .filtres{
+        gap:13px;
+    }
     .nos-pepites, .economique, .familial, .romantique{
-        padding: 9px 8px 6px 4px;
+        padding: 9px 9px 6px 9px;
         font-size: 1em;
     }
     .fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
