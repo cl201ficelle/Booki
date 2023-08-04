@@ -59,8 +59,13 @@ body{
     font-weight: 400;
 }
 
+/* enleve mise en page de base des liens */
+a{
+    text-decoration: none;
+    color: black;
+}
 
-    /******************************************************* header *********************************************************/
+/******************************************************* header *********************************************************/
 
 
 /* espacer le logo et les deux liens */
@@ -68,8 +73,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0px 50px;
-    
+    padding:0px 50px; 
 }
 
 /* espacer les deux liens */
@@ -83,9 +87,6 @@ nav{
 /* enlever la couleur et le soulignage des liens */
 .link-header{
     padding-top: 30px;
-    text-decoration: none;
-    color: black;
-
 }
 
 /* créer une bordure top qui apparait quand on survole le lien et met texte en bleu */
@@ -97,25 +98,25 @@ nav{
 /* ajustement du logo */
 .logoheader{
     width: 61px;
-    padding: 30px 50px 30px 0px;
+    padding: 30px 0px;
     
 }
 
-/* main : titre et promesse */
+/* main : promesses */
 
-h1{
+.promesse-1{
     font-size: 1.375em;
     font-weight: 700;
 }
 
-.promesse{
+.promesse-2{
     font-size: 1em;
     font-weight: 400;
     
 } 
 
 
-/* *******************************************************************rechercher****** ******************************************************************************************************/
+/* *******************************************************************rechercher************************************************************************************************************/
 /* icone location */
 .fa-location-dot{
     color: black;
@@ -133,9 +134,7 @@ h1{
 /* block de recherche */
 .rechercher{
     display: flex;
-    flex-direction: row;
-    margin-bottom: 30px;
-           
+    flex-direction: row;         
 }
 
 /* bouton rechercher */
@@ -219,7 +218,6 @@ input{
 /* mise en page texte filtre */
 .economique, .familial, .romantique, .nos-pepites{
     background-color:white;
-    border-radius: 20px;
     color: black;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
@@ -236,11 +234,7 @@ input{
     background-color: #DEEBFF;
 }
 
-/* enleve mise en page de base des liens */
-a{
-    text-decoration: none;
-    color: black;
-}
+
 
 /**************************** icone info **********************/
 .info{
