@@ -106,13 +106,13 @@ nav{
 /* main : promesses */
 
 .promesse-1{
-    font-size: 1.375em;
-    font-weight: 700;
+   margin-bottom:8px
+
 }
 
 .promesse-2{
-    font-size: 1em;
-    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom:15px;
 } 
 
 
@@ -193,9 +193,6 @@ input{
 
 
 /**************************************************** filtres *******************************************************************/
-.filtre-title{
-    font-size: 1.125em;
-}
 
 /* mettre les filtres en row */
 .filtres{
@@ -603,17 +600,13 @@ body{
     button{
         display:none;
     }
-        .filtre-title{
+  
+/* *******************************************************FILTRE************************************************* */
+/* mettre les filtres en colonne */      
+
+.filtre-title{
         margin-bottom: 5px;
     }
-.rechercher{
-    justify-content: center;
-    }
-    input{
-    width: 80.7%;
-}
-/* *******************************************************FILTRE************************************************* */
-/* mettre les filtres en colonne */
     .filtres{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -625,12 +618,7 @@ body{
     margin-top: 0;
 }
 .nos-pepites, .economique, .familial, .romantique{
-    border-radius: 20px;
-    color: black;
-    border: 2px solid #D9D9D9;
-    border-radius: 25px;
     font-size: 0.875em;
-    font-weight: 700;
     text-align: center;
     padding: 9px 9px 5px 9px;
     height: 31px;
@@ -639,7 +627,7 @@ body{
     padding-right: 32px;
 }
 .filtres{
-    gap:10px;
+    gap:15px;
     padding-top: 0px;
 }
 .fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
