@@ -499,26 +499,51 @@ body{
     .populaires-cards .card-subtitle {
         font-size: 0.875em;
     }
-    .filtres{
-        gap:13px;
-    }
+  
     .nos-pepites, .economique, .familial, .romantique{
-        padding: 9px 9px 6px 9px;
+        padding: 9px 9px 11px 9px;
         font-size: 1em;
     }
     .fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
         padding-right: 10px;
-        font-size: 22px;
+    
         
         }
+        
+    .filtres{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
+            gap:13px;
+        }
+       
+    .filtre-title{
+            grid-column: 1/6;
+            margin-top: 0;    
+}
     .activites-marseille img{
             height: 200px;
         }
     .activites-marseille .card{
             height: 270px;
         }
+     
+}
+
+/* amélioration mise en page pour filtre car sinon text sous icône pour >920px */
+@media (max-width: 920px) { 
+    .filtres{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;  
+}
+
+    .filtre-title{
+        grid-column: 1/5;
+        margin-top: 0; 
 
 }
+}
+
+
 
 /***************************************************************** Small devices (phones, less than 768px) **********************************************************************************/
 
@@ -613,9 +638,7 @@ body{
     font-size: 0.875em;
     font-weight: 700;
     text-align: center;
-    padding-top:9px;
-    padding-left:0px;
-    padding-right: 0px;
+    padding: 9px 9px 5px 9px;
     height: 31px;
 }
 
