@@ -767,9 +767,9 @@ input{
 }
 
 
-@media (max-width:292px){
+@media (max-width:327px){
 .filtres{
-    font-size: 0.9em;
+    font-size: 0.95em;
 }
 .fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
     font-size: 1.1em;
