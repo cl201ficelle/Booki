@@ -72,6 +72,22 @@ h5{
     font-size: 0.875em;
     font-weight: 400;
 }
+
+/* footer reste en bas */
+html, body{
+    height: 100%
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container{
+    flex-grow: 1;
+}
+
+
+
 /******************************************************* header *********************************************************/
 
 
