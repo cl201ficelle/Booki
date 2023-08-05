@@ -226,7 +226,8 @@ input{
     font-size: 1.063em;
     font-weight: 700;
     text-align: center;
-    padding:13px 19px 0px 19px;
+    padding:10px 19px 0px 19px;
+    height: 36px;
  
 }
 
@@ -511,6 +512,7 @@ body{
     .nos-pepites, .economique, .familial, .romantique{
         padding: 9px 9px 11px 9px;
         font-size: 1em;
+        height: 24px;
     }
 
     .fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
@@ -741,21 +743,20 @@ footer{
 
 }
 
-
+/* *************filtre en colomn pour tout petit ecran, et form qui s'adapte */
 @media (max-width:333px){
 .filtres{
-    font-size: 0.95em;
+    display: flex;
+    flex-direction: column;
 }
-.fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
-    font-size: 1.1em;
-    padding:0;    
+
+.rechercher form, .rechercher input{
+    width: 80%;
 }
-.economique, .familial, .romantique, .nos-pepites{
-    padding: 11px 0px 0px 0px;
 }
 
 
-}
+
 
 
 
