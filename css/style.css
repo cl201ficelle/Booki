@@ -159,7 +159,7 @@ nav{
 }
 
 /* bouton rechercher */
-button{
+.rechercher button{
     width:132px;
     height: 50px;
     color: white;
@@ -178,13 +178,14 @@ button{
         color: black;
     }
 
-input{
+.rechercher input{
         
         font-size: 1.125em;
         font-weight: 700;
         text-align: center;
         color: black;
         border:none;     
+        box-sizing: none;
     }
 
 .rechercher form{
