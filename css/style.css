@@ -583,8 +583,7 @@ body{
 /* display none seul ne marchait pas : trouvé la solution de rajouter !important */
 @media (min-width:767.98px) {
     .fa-magnifying-glass{
-        display: block;
-        display:none !important;
+       display: none !important;
         
     }    
 }  
@@ -603,7 +602,7 @@ body{
         border-bottom: #F2F2F2 solid 2px;
         padding:0px 0px 12px 0px;
         width: 100%;
-        text-align:center ;
+        text-align: center;
         }
         
     /* la bordure top disparait et est remplacée par bordure bottom au survol */
