@@ -141,7 +141,7 @@ nav{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     width: 50px;
-    height: 35px;
+    height: 34px;
     border:1px;
     text-align: center;
     padding-top: 15px;
@@ -151,8 +151,30 @@ nav{
 /* block de recherche */
 .rechercher{
     display: flex;
-    flex-direction: row;         
+  }
+
+.rechercher form{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    height: 48px;
 }
+
+.rechercher input{
+        
+        font-size: 1.125em;
+        font-weight: 700;
+        text-align: center;
+        color: black;
+        border:none;     
+        box-sizing: none;
+    }
+
+/* ce qu'il y a écrit dans l'input */
+.rechercher ::placeholder{
+        color: black;
+    }
 
 /* bouton rechercher */
 .rechercher button{
@@ -168,30 +190,6 @@ nav{
     margin-top: -1px;
     }
 
-    /* ce qu'il y a écrit dans l'input */
-
-.rechercher ::placeholder{
-        color: black;
-    }
-
-.rechercher input{
-        
-        font-size: 1.125em;
-        font-weight: 700;
-        text-align: center;
-        color: black;
-        border:none;     
-        box-sizing: none;
-    }
-
-.rechercher form{
-    display: flex;
-    flex-direction: row;
-    border: 1px solid #F2F2F2;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    height: 48px;
-}
 
 /* icone glass pour les screens inf à 768px */
 .glass i{
