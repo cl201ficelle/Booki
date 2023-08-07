@@ -271,6 +271,30 @@ nav{
 
 /********************** Hebergements And Populaires ***********************************/
 /* card hebergements à côté de card populaires */
+.card {
+    position: relative;
+    }
+.card-link{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .hebergements {
     background-color: #F2F2F2;
