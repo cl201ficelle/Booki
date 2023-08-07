@@ -161,7 +161,7 @@ nav{
 /* bouton rechercher */
 button{
     width:132px;
-    height: 49px;
+    height: 50px;
     color: white;
     background-color: #0065FC;
     border: none;
@@ -169,6 +169,7 @@ button{
     border-bottom-right-radius: 15px;
     font-size: 1em;
     font-weight: 700;
+    margin-top: -1px;
     }
 
     /* ce qu'il y a écrit dans l'input */
@@ -202,13 +203,14 @@ input{
     background-color: #0065FC;
     color: white;
     width: 49px;
-    height: 34px;
+    height: 35px;
     border:1px;
     text-align: center;
     padding-top: 15px;
     font-size: 1.1em;
     border-radius: 15px;
-    box-shadow: 1px 6px 3px rgba(0, 0, 0, 0.1);;
+    box-shadow: 1px 6px 3px rgba(0, 0, 0, 0.1);
+    margin-top: -1px;
 
 }
 
@@ -523,7 +525,7 @@ body{
        
     .filtre-title{
             grid-column: 1/6;
-            margin-top: 0;    
+            margin: 0;    
 }
     .nos-pepites, .economique, .familial, .romantique{
         padding: 9px 9px 11px 9px;
