@@ -614,7 +614,7 @@ body{
         }
 /* *********************************************************RECHERCHE*********************************************/
  /* enlever le bouton rechercher pour mobile */
-    button{
+    .rechercher button{
         display:none;
     }
   
