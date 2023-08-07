@@ -232,7 +232,7 @@ nav{
     padding-right: 10px;
     width: 22px;
     height: 22px;
-    font-size: 22px;
+    font-size: 1.375em;
 }
 
 
@@ -361,7 +361,7 @@ nav{
 
 /* icone graphique */
 .fa-chart-line{
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 /********************************************************** hebergements ***************************************************************************** */
@@ -535,9 +535,7 @@ body{
     }
 
     .fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
-        padding-right: 10px;
-    
-        
+        padding-right: 10px;     
         }
 
     .activites-marseille img{
@@ -657,8 +655,7 @@ body{
     padding-top: 0px;
 }
 .fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
-    padding-right: 10px;
-    font-size: 22px;
+    font-size: 1.375em;
     
     }
 /* ***********************************************POPULAIRES HEBERGEMENTS****************************************** */
