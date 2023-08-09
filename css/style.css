@@ -429,7 +429,6 @@ nav {
 .afficher-plus {
 	font-size: 1.125em;
 	font-weight: 700;
-
 }
 
 /****************************************************************** Activité Marseille******************************************** */
@@ -547,10 +546,10 @@ footer li {
 		margin: 0;
 	}
 
-	.nos-pepites,
-	.economique,
-	.familial,
-	.romantique {
+	.nos-pepites, 
+    .economique, 
+    .familial, 
+    .romantique {
 		padding: 9px 9px 11px 9px;
 		font-size: 1em;
 		height: 24px;
@@ -577,7 +576,6 @@ footer li {
 	.filtre-title {
 		grid-column: 1/5;
 		margin-top: 0;
-
 	}
 }
 
@@ -588,7 +586,6 @@ footer li {
 @media (min-width:767.98px) {
 	.fa-magnifying-glass {
 		display: none !important;
-
 	}
 }
 
@@ -621,7 +618,6 @@ footer li {
 	/* recadrement du logo */
 	.logoheader {
 		padding: 30px 50px 30px 50px;
-
 	}
 
 	/* recadrement nav */
@@ -653,13 +649,12 @@ footer li {
 		grid-template-columns: 1fr 1fr;
 		gap: 15px;
 		padding-top: 0px;
-
 	}
 
-	.nos-pepites,
-	.economique,
-	.familial,
-	.romantique {
+	.nos-pepites, 
+    .economique, 
+    .familial, 
+    .romantique {
 		font-size: 0.875em;
 		text-align: center;
 		padding: 9px 9px 5px 9px;
@@ -675,7 +670,6 @@ footer li {
 	.fa-heart,
 	.fa-fire {
 		font-size: 1.375em;
-
 	}
 
 	/* ***********************************************POPULAIRES HEBERGEMENTS****************************************** */
@@ -699,13 +693,11 @@ footer li {
 	.hebergements-and-populaires {
 		display: flex;
 		flex-direction: column-reverse;
-
 	}
 
 	/***** populaire ******/
 	.populaires .section-title {
 		padding: 8px 0px 0px 0px;
-		;
 	}
 
 	.populaires-cards {
@@ -742,7 +734,6 @@ footer li {
 
 	.hebergements {
 		background-color: white;
-
 	}
 
 
@@ -810,7 +801,6 @@ footer li {
 		flex-direction: column;
 		padding: 30px;
 		margin: 30px 0px 0px 0px;
-
 	}
 
 }
