@@ -797,15 +797,17 @@ footer li {
 }
 
 /* *************filtre en colomn pour tout petit ecran, et form qui s'adapte */
-@media (max-width:333px) {
+@media (max-width:370px){
+	.rechercher form,
+	.rechercher input {
+		width: 100%;
+	}
+}
+
+@media (max-width:330px) {
 	.filtres {
 		display: flex;
 		flex-direction: column;
-	}
-
-	.rechercher form,
-	.rechercher input {
-		width: 80%;
 	}
 }
 
