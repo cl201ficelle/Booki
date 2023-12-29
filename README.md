@@ -4,6 +4,7 @@ Page d'accueil d'une agence de voyage (Booki) avec HTML & CSS
 
 Comment lancer le projet ?
 Clonez le repo
+Ouvrir le fichier index.html : Voici le projet !
 
 
 
