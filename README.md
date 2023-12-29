@@ -1,8 +1,6 @@
 Page d'accueil d'une agence de voyage (Booki) avec HTML & CSS
+![image](https://github.com/cl201ficelle/Booki_Chedhomme_Melanie/assets/139238877/a46c9299-d927-444f-8f2e-0a8325852d1d)
 
-
-
-![image](https://github.com/cl201ficelle/Booki_Chedhomme_Melanie/assets/139238877/9afdf212-1ce4-4bb7-ad44-0054241e6cb3)
 
 
 
