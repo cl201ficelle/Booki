@@ -1,6 +1,6 @@
 Page d'accueil d'une agence de voyage (Booki) avec HTML & CSS
-![image](![image](https://github.com/cl201ficelle/Booki_Chedhomme_Melanie/assets/139238877/e825b865-a1c5-44c2-a7a1-4851e94b6261)
-)
+![image](https://github.com/cl201ficelle/Booki_Chedhomme_Melanie/assets/139238877/d82f2531-2924-45e4-b82f-bb674d63fe80)
+
 
 
 Comment lancer le projet ?
