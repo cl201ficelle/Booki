@@ -4,7 +4,7 @@
 
 
 # Comment lancer le projet ?
-Clonez le repo
+Clonez le repo.
 Ouvrir le fichier index.html : Voici le projet !
 
 
